@@ -3,13 +3,13 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 .utmp/
-/Project-ARiO/Library/
-/Project ARiO/Temp/
-/Project-ARiO/Obj/
-/Project-ARiO/Build/
-/Project-ARiO/Builds/
-/Project-ARiO/Logs/
-/Project-ARiO/UserSettings/
+Project\ ARiO/[Ll]ibrary/
+Project\ ARiO/[Tt]emp/
+Project\ ARiO/[Oo]bj/
+Project\ ARiO/[Bb]uild/
+Project\ ARiO/[Bb]uilds/
+Project\ ARiO/[Ll]ogs/
+Project\ ARiO/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
