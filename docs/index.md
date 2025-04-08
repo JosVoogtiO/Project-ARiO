@@ -29,7 +29,7 @@ Volg deze stappen om uw ontwikkelomgeving gereed te maken en begin met het maken
 De Unity Hub is een management tool dat helpt met het organiseren van Unity projecten en het beheren van verschillende Unity Editor versies.
 
 1. Ga naar de [Unity Download pagina](https://unity.com/download)
-2. Klik de "Download" knop voor de geschikte OS (Windows, Linux, Mac)
+2. Klik de **Download** knop voor de geschikte OS (Windows, Linux, Mac)
 3. Voer de installer uit en volg de instructies
 4. Lanceer Unity Hub na installatie
 5. Login met je Unity ID (creëer er een als je nog geen ID hebt)
@@ -38,11 +38,11 @@ De Unity Hub is een management tool dat helpt met het organiseren van Unity proj
 
 ## Stap 2: Installeer Unity Editor
 
-Wanneer de Unity Hub is geinstalleerd, moet je de Unity Editor installeren.
+Wanneer de Unity Hub is geïnstalleerd, moet je de Unity Editor installeren.
 
 1. In Unity Hub, ga naar de **Installs** tab
 2. Klik op de **Install Editor** knop
-3. Selecteer "Unity (2022.3.60f1) LTS" (Long Term Support) voor de stabiliteit
+3. Selecteer **Unity (2022.3.60f1) LTS (Long Term Support)** voor de stabiliteit
 4. Selecteer de volgende modules om te installeren:
    - Microsoft Visual Studio Community 2022 (of gebruik een andere IDE)
    - Android Build Support
@@ -51,14 +51,13 @@ Wanneer de Unity Hub is geinstalleerd, moet je de Unity Editor installeren.
 ## Stap 3: Configureer IDE
 
 Het opzetten van de IDE die je wilt gebruiken. Hieronder Visual Studio.
-Kijk via de officiele docs van je gekozen IDE voor Unity Development modules/extensions
+Kijk via de officiële docs van je gekozen IDE voor Unity Development modules/extensions
 
-**IDE Setup Visual Studio**:
    1. Lanceer Visual Studio Installer
-   2. Klik bij Visual Studio Community 2022 op "Modify"
-   3. Navigeer naar de tab "Individual Components"
-   4. Zoek naar "Unity"
-   5. Vink de optie "Visual Studio Tools for Unity" aan
-   6. Klik rechtsonderin of "Modify"
+   2. Klik bij Visual Studio Community 2022 op **Modify**
+   3. Navigeer naar de tab **Individual Component**
+   4. Zoek naar **Unity**
+   5. Vink de optie **Visual Studio Tools for Unity** aan
+   6. Klik rechts onderin of **Modify**
 
 > **Note**: Na het modificeren van je IDE kan het zijn dat de computer op nieuw moet worden gestart.

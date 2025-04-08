@@ -27,20 +27,19 @@ Volg deze stappen om je projectopzet gereed te maken en begin met het maken van 
 Het juist opzetten van je project vanaf het begin bespaart je veel tijd en moeite in latere ontwikkelingsfasen.
 
 1. Open de Unity Hub
-2. op de projects tab, selecteer "New Project"
+2. op de projects tab, selecteer **New Project**
 3. Selecteer de Unity versie die je wilt gebruiken (Unity 2022.3.60f LTS)
-4. Kies de "Universal 3D" template.
+4. Kies de **Universal 3D** template.
 5. Geef het project een naam en een locatie om op te slaan.
 6. Indien nodig selecteer ook ["Connect to Unity Cloud"](https://unity.com/products/unity-cloud) en ["Use Unity version Control"](https://unity.com/how-to/redeem/version-control) mocht dit van toepassing zijn voor het project.
-7. Selecteer "Create Project"
+7. Selecteer **Create Project**
 
 ## Stap 2: Opzetten Build Platform
 
 Het platform waar de Meta Quest headsets zijn gebouwd is Android, en de build output is een .apk (Android Executable) file
 
 1. In de Unity Editor navigeer naar **File > Build Profiles** en open dit.
-2. Onder **Platform** selecteer **Android** en selecteer **Switch Platform**
-
+2. Onder **Platform** selecteer **Android** en selecteer **Switch Platform**.
 
 ## Stap 3: Installeer de XR Provider Plugin
 
@@ -68,11 +67,11 @@ De Meta SDK's zijn makkelijk te importeren in je project.
 
 ## Stap 5: Configureer Project met Project Setup Tool
 
-De Project Setup Tool is een Unity Editor extensie, handig voor Unity projecten voor het ontwikkelen van XR-toepassingen op de Meta
+De Project Setup Tool is een Unity Editor extensie, handig voor Unity projecten voor het ontwikkelen van XR-toepassingen op de Meta.
 
 1. Voor Android open de Project Setup Tool in de Unity Editor, Navigeer naar **Meta > Tools > Project Setup Tool**.
-2. Om alle issues te verhelpen, selecteer **Fix All**
+2. Om alle issues te verhelpen, selecteer **Fix All**.
 
-> **Note**: Daarnaast zijn er ook instellingen die handig kunnen zijn bij het ontwikkelen, maak bewuste keuze of je de instelling wilt hebben en selecteer **Apply* of **Apply All**
+> **Note**: Daarnaast zijn er ook instellingen die handig kunnen zijn bij het ontwikkelen, maak bewuste keuze of je de instelling wilt hebben en selecteer **Apply** of **Apply All**.
 
 
