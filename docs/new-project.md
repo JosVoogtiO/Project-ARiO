@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Get Started
+title: Start Nieuw Project
 nav_order: 2
 ---
 

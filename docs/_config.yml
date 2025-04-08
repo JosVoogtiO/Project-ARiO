@@ -29,6 +29,11 @@ defaults:
       nav_order: 1
   -
     scope:
-      path: "project.md"
+      path: "new-project.md"
     values:
       nav_order: 2
+  -
+    scope:
+      path: "exist-project.md"
+    values:
+      nav_order: 3
