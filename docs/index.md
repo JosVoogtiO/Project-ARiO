@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Setup Guide
+nav_order: 1
 ---
 
 # Setup Guide
