@@ -1,7 +1,7 @@
 # Site settings
-title: Development Setup Guide
+title: Development Guide
 description: Step-by-step guide to setting up a development environment for new developers
-url: "https://josvoogtio.github.io/Project-ARiO/" # Replace with your GitHub username
+url: "https://josvoogtio.github.io/Project-ARiO/"
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs
