@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Development Guide
+title: Setup Guide
 ---
 
 # Setup Guide
