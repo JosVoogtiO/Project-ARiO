@@ -1,7 +1,4 @@
 # Project-ARiO
 
 
-Needing
-- Git
-- Unity
-- Visual Studio
+Voor documentatie over dit project zie [hier](https://josvoogtio.github.io/Project-ARiO/)
