@@ -1,25 +1,42 @@
 # Site settings
-title: Project ARiO Documentation
-description: Comprehensive documentation for project ARiO
-url: "https://josvoogtio.github.io/Project-ARiO/"
+title: Development Setup Guide
+description: Step-by-step guide to setting up a development environment for new developers
+url: "https://josvoogtio.github.io/Project-ARiO/" # Replace with your GitHub username
 
 # Theme settings
-theme: jekyll-theme-cayman # Popular alternatives: jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-midnight
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+# Just-the-Docs specific settings
+search_enabled: true
+search:
+  # Split pages into sections that can be searched individually
+  heading_level: 2
+  # Maximum amount of previews per search result
+  previews: 3
+  # Maximum amount of words to display before a matched word in the preview
+  preview_words_before: 5
+  # Maximum amount of words to display after a matched word in the preview
+  preview_words_after: 10
+  # Set the search token separator
+  tokenizer_separator: /[\s/]+/
+  # Display the relative url in search results
+  rel_url: true
 
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
+# Aux links for the upper right navigation
+aux_links:
+  "View on GitHub":
+    - "//github.com/josvoogtio/Project-ARiO" # Replace with your GitHub repository URL
 
-# Navigation
-# Add pages you want to appear in the navigation
-header_pages:
-  - index.md
-  - documentation.md
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Heading anchor links
+heading_anchors: true
 
 # Exclude files from processing
 exclude:
@@ -27,22 +44,54 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
-  - .gitignore
+  - .github/
+  - README.md
+  - LICENSE
+
+# Enable or disable the site navigation in the header
+nav_enabled: true
 
 
-# Defaults
+# Navigation structure
+# This defines the sidebar navigation
+nav:
+  - title: Home
+    url: /
+    children:
+      - title: Benodigdheden
+        url: /#benodigdheden
+      - title: Step 1: Install Unity Hub
+        url: /#step-1-install-unity-hub
+      - title: Step 2: Install Unity Editor
+        url: /#step-2-install-unity-editor
+      - title: Step 3: Configure Development Environment
+        url: /#step-3-configure-development-environment
+      - title: Step 4: Install Required Packages
+        url: /#step-4-install-required-packages
+      - title: Step 5: Setting Up Version Control
+        url: /#step-5-setting-up-version-control
+      - title: Step 6: Project Structure Best Practices
+        url: /#step-6-project-structure-best-practices
+      - title: Troubleshooting
+        url: /#troubleshooting
+      - title: Next Steps
+        url: /#next-steps
+
+# Default YAML values for files
 defaults:
   - scope:
       path: ""
-      type: "docs"
+      type: docs
     values:
-      layout: "page"
+      layout: default
+      has_children: false
+      parent: Home
+      grand_parent: 
+      nav_order: 1
   - scope:
       path: ""
-      type: "pages"
+      type: pages
     values:
-      layout: "page"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+      layout: default
+      has_children: false
+      parent:
