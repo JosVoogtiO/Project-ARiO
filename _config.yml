@@ -1,0 +1,48 @@
+# Site settings
+title: Project ARiO Documentation
+description: Comprehensive documentation for project ARiO
+url: "https://josvoogtio.github.io/Project-ARiO/"
+
+# Theme settings
+theme: jekyll-theme-cayman # Popular alternatives: jekyll-theme-minimal, jekyll-theme-slate, jekyll-theme-midnight
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+# Add pages you want to appear in the navigation
+header_pages:
+  - index.md
+  - documentation.md
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
