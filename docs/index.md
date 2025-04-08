@@ -1,4 +1,7 @@
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+---
+layout: default
+title: Development Setup Guide
+---
 
 # Development Guide
 
