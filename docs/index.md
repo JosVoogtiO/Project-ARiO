@@ -16,12 +16,12 @@ Volg deze stappen om uw ontwikkelomgeving gereed te maken en begin met het maken
 
 ## Vereisten
 
-**Besturingssysteem**: Windows 10/11 (64-bit), macOS 10.15 of nieuwer, of Ubuntu 20.04/22.04
-**CPU**: Ondersteuning voor SSE2 instructieset
-**GPU**: Grafische kaart met DX10, DX11, of DX12 mogelijkheden
-**RAM**: Minimaal 8GB, aanbevolen 16GB of meer
-**Opslagruimte**: Tenminste 10GB vrije ruimte voor installatie
-**Versiebeheer**: In dit document wordt niet behandeld het installeren van Git of van tools zoals GitHub Desktop, maar dit zijn wel vereisten als je versiebeheer wilt toepassen.
+- **Besturingssysteem**: Windows 10/11 (64-bit), macOS 10.15 of nieuwer, of Ubuntu 20.04/22.04
+- **CPU**: Ondersteuning voor SSE2 instructieset
+- **GPU**: Grafische kaart met DX10, DX11, of DX12 mogelijkheden
+- **RAM**: Minimaal 8GB, aanbevolen 16GB of meer
+- **Opslagruimte**: Tenminste 10GB vrije ruimte voor installatie
+- **Versiebeheer**: In dit document wordt niet behandeld het installeren van Git of van tools zoals GitHub Desktop, maar dit zijn wel vereisten als je versiebeheer wilt toepassen.
 
 ## Stap 1: Installeren Unity Hub
 
