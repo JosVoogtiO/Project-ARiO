@@ -6,7 +6,8 @@ nav_order: 1
 
 # Setup Guide
 
-Deze gids helpt u bij het opzetten van een ontwikkelomgeving voor AR-applicaties op de Meta Quest 3. Volg onderstaande stappen om uw ontwikkelomgeving volledig gereed te maken.
+Deze gids leidt u door het proces van het opzetten van de ontwikkelomgeving voor het maken van AR-applicaties voor de Meta Quest 3.
+Volg deze stappen om uw ontwikkelomgeving gereed te maken.
 
 ## Inhoud
 - [Vereisten](#vereisten)
