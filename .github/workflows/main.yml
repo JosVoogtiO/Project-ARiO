@@ -30,7 +30,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           projectPath: "Project ARiO"
-          unityVersion: 2022.3.60f1
+          testMode: EditMode
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
