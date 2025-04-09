@@ -69,6 +69,10 @@ crashlytics-build.properties
 # Packed Addressables
 Project\ ARiO/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
+# Ignore temporaries from GameCI
+/[Aa]rtifacts/
+/[Cc]odeCoverage/
+
 # Temporary auto-generated Android Assets
 Project\ ARiO/[Aa]ssets/[Ss]treamingAssets/aa.meta
 Project\ ARiO/[Aa]ssets/[Ss]treamingAssets/aa/*
