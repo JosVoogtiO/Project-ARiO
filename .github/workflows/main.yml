@@ -15,7 +15,6 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          projectPath: Project-ARiO
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
